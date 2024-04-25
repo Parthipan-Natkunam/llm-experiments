@@ -6,7 +6,7 @@ A repo for my experimentation with Local LLMs. A collection of tiny AI Projects.
 
 - Powered by llama2.
 ##### Local Setup:
-1. Install [Ollama](ollama.ai)
+1. Install [Ollama](https://ollama.ai)
 2. Pull & run the llama2 model locally
 ```bash
 ollama run llama2

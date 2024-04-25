@@ -1,13 +1,13 @@
 from ai import get_answer
 
 continue_conversation = True
-total_questions = 0
+is_first_question = True
 
 while continue_conversation:
-    display_message = "Hello I am your local AI Assistant. How may I help you?" if total_questions == 0 else "What else would you like to know?"
+    display_message = "Hello I am your local AI Assistant. How may I help you?" if is_first_question else "What else would you like to know?"
     print(display_message, end="\n")
     question = input()
-    total_questions += 1
+    is_first_question = False
 
     response = get_answer(question)
     print(response, end="\n")

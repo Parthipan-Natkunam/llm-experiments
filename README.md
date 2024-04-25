@@ -11,7 +11,7 @@ A repo for my experimentation with Local LLMs. A collection of tiny AI Projects.
 ```bash
 ollama run llama2
 ```
-3. cd into the cloned repository & create a virtual environment
+3. clone this repo, cd into the cloned repository & create a virtual environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate

@@ -20,8 +20,10 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-5. Run the assistant
+5. cd into `terminal_assistant` directory & Run the assistant
 ```bash
 python3 assistant.py
 ```
+#### Demo:
+![Demo](./docs/demo1.gif)
   

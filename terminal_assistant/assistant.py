@@ -9,8 +9,8 @@ while continue_conversation:
     question = input()
     total_questions += 1
 
-    respone = get_answer(question)
-    print(respone, end="\n")
+    response = get_answer(question)
+    print(response, end="\n")
     print("-"*50, end="\n")
 
     print("Do you have any other question? (yes/no)", end="\n")

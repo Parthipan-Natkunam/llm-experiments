@@ -2,7 +2,7 @@ A repo for my experimentation with Local LLMs. A collection of tiny AI Projects.
 
 ## Projects
 ### 1. [Terminal Assistant](./terminal_assistant/)
-> An AI assistant that can answer you simple questions. Has no memory, so won't rmember your previous question.   
+> An AI assistant that can answer your simple questions. Has no memory, so won't rmember your previous question.   
 
 - Powered by llama2.
 ##### Local Setup:
